@@ -1,6 +1,8 @@
 # 🚀 Spirit Team Recruitment Portal
 
 A sleek and efficient web application to streamline team recruitment processes — built with Node.js and Express. Upload resumes, manage applicants, and organize your team with ease.
+![1 (4)](https://github.com/user-attachments/assets/165f64b9-8921-498d-a073-31681a356a05)
+
 
 ---
 
@@ -16,6 +18,8 @@ A sleek and efficient web application to streamline team recruitment processes �
 ---
 
 ## 📦 Installation
+![2 (5)](https://github.com/user-attachments/assets/64c53178-3535-43f3-b57f-ec1e7d925e11)
+
 
 1. **Clone the repository:**
    ```bash
@@ -49,6 +53,8 @@ UPLOAD_DIR=uploads
 ---
 
 ## 🗂 Project Structure
+![ss](https://github.com/user-attachments/assets/44337f00-1a87-41dd-a190-7f191c03bab0)
+
 
 ```
 spirit_team_recruitment/
