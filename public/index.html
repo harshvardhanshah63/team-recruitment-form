@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recruitment form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <div class="logo-icon">
+                    <img src="assets/spiritlogo.png" alt="Logo" class="logo-head">
+                </div>
+                <div class="logo-text">Team <span>SPIRIT</span></div>
+            </div>
+            <div class="nav-buttons">                
+                <a href="https://chat.whatsapp.com/KNWJ5emmNQe9t4GGUaLzki" target="_blank">
+                   <img src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="WhatsApp" width="32" height="32" class="social-icon">
+                </a>
+                <a href="https://www.instagram.com/yourprofile" target="_blank">
+                   <img src="https://img.icons8.com/fluency/48/instagram-new.png" alt="Instagram" width="32" height="32" class="social-icon">
+                </a>
+            </div>
+        </header>
+
+        <section class="hero">
+            <div class="hero-content">
+                <h1>TEAM SPIRIT RECRUITMENT DRIVE 2025 </h1>
+                <h2>Team Spirit is not just a group — it’s a movement of passionate individuals who believe in collaboration, innovation, and excellence. Whether you're a tech geek, designer, organizer, or a visionary — we’re looking for you!</h2>
+                <div class="slogan">Join the Team That Sparks Innovation!</div>
+            </div>
+        </section>
+
+        <div class="content-section">
+            <div class="info-panel">
+                <h3>Team Recruitment</h3>
+                <div class="tournament-info">
+                    <p><strong>Team Positions Open:</strong> Developers & Tech Enthusiasts , Creatives & Designers , Event Managers & Planners , PR & Communication Stars</p>
+                  <!--<p><strong>Training Schedule:</strong> Mon, Wed, Fri @ 6-8 PM</p>
+                    <p><strong>Season Duration:</strong> July - October 2025</p>  -->
+                    <p><strong>Commitment:</strong> 8-10 hours/week</p>
+                </div>
+
+                <div class="benefits">
+                    <h4>Why Join Our Team?</h4>
+                    <ul>
+                        <li>🤝 Work in a high-energy collaborative team</li>
+                        <li>🛠️ Build real projects that make a difference</li>
+                        <li>🧠 Learn leadership, innovation & problem-solving</li>
+                        <li>🎖️ Get recognition, experience & certificates</li>
+                    </ul>
+                </div>
+
+                <div class="player-gallery">
+                    <div class="player">
+                        <div class="player-avatar">
+                            <img src="assets/captain.png" alt="Logo" class="logo-img">
+                        </div>
+                        <h4>SHAAHO</h4>
+                        <p>Team Captain</p>
+                    </div>
+                    <div class="player">
+                        <div class="player-avatar">
+                            <img src="assets/head.jpg" alt="Logo" class="logo-img">
+                        </div>
+                        <h4>PREMAM</h4>
+                        <p>Team Head</p>
+                    </div>
+                </div>
+            </div>
+            <div class="form-container">
+                <h3>Apply for Team Spirit Recruitment</h3>
+                <form id="recruitment-form" enctype="multipart/form-data" method="POST">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="firstName">First Name *</label>
+                            <input type="text" id="firstName" name="firstName" required placeholder="Enter your first name">
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName">Last Name *</label>
+                            <input type="text" id="lastName" name="lastName" required placeholder="Enter your last name">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required placeholder="+91 XXXX(WhatsApp)">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+            <div class="form-group">
+                <label for="college">College / Institute *</label>
+                <input type="text" id="college" name="college" required placeholder="Your College Name">
+            </div>
+            
+            <div class="form-group">
+                <label for="year">Year of Study *</label>
+                <select id="year" name="year" required>
+                    <option value="">Select Year</option>
+                    <option value="1st Year">1st Year</option>
+                    <option value="2nd Year">2nd Year</option>
+                    <option value="3rd Year">3rd Year</option>
+                    <option value="Final Year">Final Year</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+        </div>
+            <div class="form-row">
+    <div class="form-group">
+        <label for="branch">Branch *</label>
+        <input type="text" id="branch" name="branch" required placeholder="e.g., Computer, ENTC, Mech">
+    </div>
+    <div class="form-group">
+        <label for="roll">Roll Number</label>
+        <input type="text" id="roll" name="roll" placeholder="e.g., 23BCE1234">
+    </div>
+</div>
+   
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="position">Preferred Position *</label>
+                            <select id="position" name="position" required>
+                                <option value="">Select position</option>
+                                <option value="Developers & Tech Enthusiasts">Developers & Tech Enthusiasts</option>
+                                <option value="Creatives & Designers">Creatives & Designers</option>
+                                <option value="PR & Communication Stars">PR & Communication Stars</option>
+                                <option value="Event Managers & Planners">Event Managers & Planners</option>
+                                <option value="All Position">More than one Positions</option>
+                            </select>
+                        </div>
+                <!--    <div class="form-group">
+                            <label for="experience">Experience Level *</label>
+                            <select id="experience" name="experience" required>
+                                <option value="">Select experience</option>
+                                <option value="beginner">Beginner (0-1 year)</option>
+                                <option value="intermediate">Intermediate (1-3 years)</option>
+                                <option value="advanced">Advanced (3-5 years)</option>
+                                <option value="expert">Expert (5+ years)</option>
+                            </select>
+                        </div>
+                -->
+                    </div>
+                    <div class="form-group">
+                       <label for="skills">What skills do you bring to the team? </label>
+                       <textarea id="skills" name="skills" placeholder="e.g. Canva, Coding, Social Media, Public Speaking, etc."></textarea>
+                    </div>
+                    <div class="form-group">
+                       <label for="motivation">Why do you want to join Team Spirit?</label>
+                       <textarea id="motivation" name="motivation" placeholder="Tell us what excites you about this opportunity..."></textarea>
+                    </div>
+
+
+                    <div class="form-group">
+                      <label for="message">Message to the Team (Optional)</label>
+                      <textarea id="message" name="message" rows="4" placeholder="Anything you’d like us to know? Tell us your vision, passion, or a fun fact about you!"></textarea>
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="resume">Upload Your Resume (PDF/DOC) *</label>
+                        <div class="file-upload">
+                            <div class="file-upload-btn">
+                                <i class="fas fa-cloud-upload-alt"></i> Choose File
+                            </div>
+                            <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+                            <div class="file-name">No file chosen</div>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary submit-btn">
+                        <i class="fas fa-paper-plane"></i> Submit Application
+                    </button>
+
+                    <div class="confirmation" id="confirmation">
+                        <i class="fas fa-check-circle"></i>
+                        <h3>Application Submitted!</h3>
+                        <p>Thank you for your interest in joining our team.</p>
+                        <p>We'll review your application and contact you within 3-5 business days.</p>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <footer>
+            <p>© 2025 Team SPIRIT. All Rights Reserved.</p>            
+        </footer>        
+    </div>
+
+    <script>
+       
+    document.addEventListener('DOMContentLoaded', function () {
+        const form = document.getElementById('recruitment-form');
+        const fileInput = document.getElementById('resume');
+        const fileName = document.querySelector('.file-name');
+        const confirmation = document.getElementById('confirmation');
+        const submitBtn = document.querySelector('.submit-btn');
+        const originalBtnHTML = submitBtn.innerHTML;
+
+        fileInput.addEventListener('change', function () {
+            fileName.textContent = this.files.length > 0 ? this.files[0].name : 'No file chosen';
+        });
+
+        form.addEventListener('submit', async function (e) {
+            e.preventDefault();
+
+            // Disable button and show waiting message
+            submitBtn.disabled = true;
+            submitBtn.innerHTML = '⏳ Please wait...';
+
+            const formData = new FormData(form);
+            try {
+                const response = await fetch('https://yourrendername.onrender.com/submit-application', {
+                    method: 'POST',
+                    body: formData
+                });
+                const result = await response.json();
+
+                if (result.success) {
+                    confirmation.style.display = 'block';
+                    form.reset();
+                    fileName.textContent = 'No file chosen';
+
+                    setTimeout(() => {
+                        confirmation.style.display = 'none';
+                        submitBtn.disabled = false;
+                        submitBtn.innerHTML = originalBtnHTML;
+                    }, 5000);
+                } else {
+                    alert('❌ Submission failed: ' + result.error);
+                    submitBtn.disabled = false;
+                    submitBtn.innerHTML = originalBtnHTML;
+                }
+            } catch (err) {
+                alert('❌ An error occurred while submitting the form.');
+                console.error('Error:', err);
+                submitBtn.disabled = false;
+                submitBtn.innerHTML = originalBtnHTML;
+            }
+        });
+    });
+</script>
+</body>
+</html>
