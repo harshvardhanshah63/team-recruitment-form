@@ -2,7 +2,8 @@
 
 A sleek and efficient web application to streamline team recruitment processes — built with Node.js and Express. Upload resumes, manage applicants, and organize your team with ease.
 
-![1 (4) (1)](https://github.com/user-attachments/assets/cd699d40-6c5d-4d45-911c-5d1da40c8e22)
+![10 (1)](https://github.com/user-attachments/assets/ca6f1b0b-744c-4037-9547-4a795577ac34)
+
 
 ---
 
@@ -18,7 +19,8 @@ A sleek and efficient web application to streamline team recruitment processes �
 ---
 
 ## 📦 Installation
-![2 (5)](https://github.com/user-attachments/assets/64c53178-3535-43f3-b57f-ec1e7d925e11)
+![11 (3) (1)](https://github.com/user-attachments/assets/37428b35-bd24-4045-b9ec-cb812069a8c3)
+
 
 
 1. **Clone the repository:**
@@ -53,7 +55,7 @@ UPLOAD_DIR=uploads
 ---
 
 ## 🗂 Project Structure
-![ss](https://github.com/user-attachments/assets/44337f00-1a87-41dd-a190-7f191c03bab0)
+![12 (1)](https://github.com/user-attachments/assets/47fdb597-3620-4e4a-a376-dabdd4b98019)
 
 
 ```
